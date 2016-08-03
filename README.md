@@ -37,4 +37,4 @@
 
 19. P91页第3行中`0:015> dd ebp+0c` => `0:015> dd poi(ebp+c)`（感谢 ench4nt3r）
 
-
+20. P144页第11行中`(3) CtableLayout + 0x90` => `(3) CtableLayout + 0x9C`
