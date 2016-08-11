@@ -37,4 +37,6 @@
 
 19. P91页第3行中`0:015> dd ebp+0c` => `0:015> dd poi(ebp+c)`（感谢 ench4nt3r）
 
-20. P144页第11行中`(3) CtableLayout + 0x90` => `(3) CtableLayout + 0x9C`
+20. P144页第11行中`(3) CtableLayout + 0x90` => `(3) CtableLayout + 0x9C`（感谢 ench4nt3r）
+
+21. P522页中图10-86上两处`R2`标注应应改为`R0`(感谢“杯中取月”)
