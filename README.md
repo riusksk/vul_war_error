@@ -46,3 +46,6 @@
 23. P78页最后一段第2行中“`buf2`与后面的空闲堆`00600bc8`进行合并” => “`heap`与后面的空闲堆`00530bb0`进行合并”（感谢“兴华蔡27136”）
 
 24. P350页第5行`nofifyGlobalMemoryChanged` => `notifyGlobalMemoryChanged`（感谢 ench4nt3r ）
+
+25. P284页第一段描述第2行中`第2个参数值0x0`=>`第2个参数值0x06457bc0`（感谢 ench4nt3r ）
+
