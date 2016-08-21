@@ -49,3 +49,5 @@
 
 25. P284页第一段描述第2行中`第2个参数值0x0`=>`第2个参数值0x06457bc0`（感谢 ench4nt3r ）
 
+26. P298页中`图7-17 CElement::insertBeforeHelper函数`=> `图7-17 CElement::insertBefore函数`（感谢 ench4nt3r ）
+
