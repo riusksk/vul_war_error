@@ -51,3 +51,4 @@
 
 26. P298页中`图7-17 CElement::insertBeforeHelper函数`=> `图7-17 CElement::insertBefore函数`（感谢 ench4nt3r ）
 
+27. P431页第6行`freelist_node->next` => `freelist_node->prev`（感谢 ench4nt3r ）
