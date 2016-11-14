@@ -53,6 +53,8 @@
 
 27. P431页第6行`freelist_node->next` => `freelist_node->prev`（感谢 ench4nt3r ）
 
-28. P24页第24页第二行`heap spary` => `heap spray` （感谢 Murasaki ）  
+28. P24页第24页第2行`heap spary` => `heap spray` （感谢 Murasaki ）  
 
-29. P279页倒数第三行xul!nxObjectLoadingContent => xul!nsObjectLoadingContent（感谢“王大状”）
+29. P279页倒数第3行`xul!nxObjectLoadingContent` => `xul!nsObjectLoadingContent`（感谢“王大状”）
+
+30. P12页倒数第3行`阶值` => `价值`
