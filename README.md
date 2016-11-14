@@ -58,3 +58,5 @@
 29. P279页倒数第3行`xul!nxObjectLoadingContent` => `xul!nsObjectLoadingContent`（感谢“王大状”）
 
 30. P12页倒数第3行`阶值` => `价值`
+
+31. P370页图8-14下一行 `重命为` => `重命名为`
