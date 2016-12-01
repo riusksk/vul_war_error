@@ -63,4 +63,7 @@
 
 32. P15页第2行行尾 `命令` => `命名`（感谢 rootkiter ）
 
-33. P325页第9行`“CGnericElement的大小为0x4C,所里这里需要包含0x4c/4=13个分号的字符串”` => `“CGnericElement的大小为0x38（参考图7-26）,所里这里需要包含0x38/4=14个分号的字符串”`，下一行的示例代码 `“i < 13”` 改为 `“i < 14”`，虽然实测13也可以利用成功，但更精确的应该是14。（感谢 wingdbg）
+33. P325页第1段文字“t:ANIMATECOLOR标签值……13个分号的字符串” => `“t:ANIMATECOLOR标签值是一个用分号分隔的字符串，t:ANIMATECOLOR 对应的对象大小，是由分号（匹配符）个数+1决定的。计算方法在 mstime!StringToTokens 中实现，通过查询value字符串(unicode)中分号的个数，在查询到value的unicode结束符(00 00)时，会跟分号匹配符的结束符(00 00)匹配上，因此需要加1。因此这里分号个数 = sizeof(CGenericElement Object) -1，而通过前面分析知道CGnericElement的大小为0x38（参考图7-26）,所以这里需要包含0x38/4 -1 = 13个分号的字符串”`（感谢 wingdbg）
+
+
+
