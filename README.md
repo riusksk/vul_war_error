@@ -66,3 +66,5 @@
 33. P325页第1段文字“t:ANIMATECOLOR标签值……13个分号的字符串” => `“t:ANIMATECOLOR标签值是一个用分号分隔的字符串，t:ANIMATECOLOR 对应的对象大小，是由分号（匹配符）个数+1决定的。计算方法在 mstime!StringToTokens 中实现，通过查询value字符串(unicode)中分号的个数，在查询到value的unicode结束符(00 00)时，会跟分号匹配符的结束符(00 00)匹配上，因此需要加1。因此这里分号个数 = sizeof(CGenericElement Object) -1，而通过前面分析知道CGnericElement的大小为0x38（参考图7-26）,所以这里需要包含0x38/4 -1 = 13个分号的字符串”`（感谢 wingdbg）
 
 34. P563页11.2.6节第一行中“CVE-2012-0518” => “CVE-2012-0158”（感谢“rwx”）
+
+35. P341页多处 "ActiveScript" 改为 "ActionScript"（感谢"willJ"）
