@@ -68,3 +68,5 @@
 34. P563页11.2.6节第一行中“CVE-2012-0518” => “CVE-2012-0158”（感谢“rwx”）
 
 35. P341页多处 "ActiveScript" 改为 "ActionScript"（感谢"willJ"）
+
+36. P430页图9-26标题“PATHRECORD结构体名字段” => “PATHRECORD结构体各字段”
