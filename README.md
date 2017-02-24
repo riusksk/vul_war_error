@@ -70,3 +70,5 @@
 35. P341页多处 "ActiveScript" 改为 "ActionScript"（感谢"willJ"）
 
 36. P430页图9-26标题“PATHRECORD结构体名字段” => “PATHRECORD结构体各字段”
+
+37. P21页“从TableEntry结构入口偏移0x11C” => “从TTF文件头开始偏移0x11C”（感谢“2017要好好长肉肉”）
