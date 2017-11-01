@@ -72,3 +72,7 @@
 36. P430页图9-26标题“PATHRECORD结构体名字段” => “PATHRECORD结构体各字段”
 
 37. P21页“从TableEntry结构入口偏移0x11C” => “从TTF文件头开始偏移0x11C”（感谢“2017要好好长肉肉”）
+
+38. P313页“可以知道CELement+0x14保存着”中的"CELement"应改为“CElement”（感谢“坩埚钳Deeom”）
+
+39. P177页第一行中"将经CacheSize*4+4计算后的值（即edi）与0xFFFFFFFF做了无符号比较，只有当edi小于等于0xFFFFFFFF时才进行堆块分配"，在此之前补丁调用ULongLongToULong函数作类型转换，之后以上比较才效，此处漏掉对ULongLongToULong函数的补丁分析。（感谢 "holing"）
